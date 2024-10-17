@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sardar Trims LTD. - Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Background Video -->
+<video autoplay muted loop id="background-video">
+  <source src="Photos/bgvid2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<!-- Main Login Container -->
+<div class="login-container">
+  <!-- Header Section -->
+  <header class="header">
+    <h1>Sardar Trims LTD.</h1>
+  </header>
+
+  <!-- Login Form -->
+  <div class="login-box">
+    <h2>Login</h2>
+    <form action="#" method="post" id="loginForm">
+      <div class="input-box">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required placeholder="Enter your username">
+      </div>
+      <div class="input-box">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password">
+        <button type="button" class="show-password-btn" onclick="togglePassword()">Show</button>
+      </div>
+      <div class="options">
+        <label>
+          <input type="checkbox" name="remember" id="remember"> Remember Me
+        </label>
+      </div>
+      <div class="input-box">
+        <button type="submit">Login</button>
+      </div>
+      <div class="forgot">
+        <a href="#">Forgot Password?</a>
+      </div>
+    </form>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>&copy; 2024 Sardar Trims LTD. All rights reserved.</p>
+  </footer>
+</div>
+
+<!-- Link to External JavaScript -->
+<script src="scripts.js"></script>
+
+</body>
+</html>
